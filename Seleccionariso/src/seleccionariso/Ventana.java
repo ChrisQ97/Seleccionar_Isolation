@@ -47,7 +47,7 @@ public class Ventana extends javax.swing.JFrame {
         combobox.setBackground(new java.awt.Color(255, 255, 255));
         combobox.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         combobox.setForeground(new java.awt.Color(44, 128, 182));
-        combobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "READ UNCOMMITTED", "READ COMMITED", "REPEATABLE READ", "SERIALIZABLE", " " }));
+        combobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "READ UNCOMMITTED", "READ COMMITTED", "REPEATABLE READ", "SERIALIZABLE", " " }));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
